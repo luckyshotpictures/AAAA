@@ -1,0 +1,93 @@
+- type: alertLevels
+  id: stationAlerts
+  defaultLevel: green
+  levels:
+    green:
+      announcement: alert-level-green-announcement
+      color: Green
+      shuttleTime: 1200
+    blue:
+      announcement: alert-level-blue-announcement
+      sound: /Audio/Misc/bluealert.ogg
+      color: DodgerBlue
+      shuttleTime: 600
+    violet:
+      announcement: alert-level-violet-announcement
+      sound: /Audio/Misc/notice1.ogg
+      color: Violet
+      emergencyLightColor: Violet
+      shuttleTime: 600
+    yellow:
+      announcement: alert-level-yellow-announcement
+      sound: /Audio/Misc/notice1.ogg
+      color: Yellow
+      emergencyLightColor: Goldenrod
+      shuttleTime: 600
+    red:
+      announcement: alert-level-red-announcement
+      sound: /Audio/Misc/redalert.ogg
+      color: Red
+      shuttleTime: 600 #No reduction in time as we don't have swiping for red alert like in /tg/. Shuttle times are intended to create friction, so having a way to brainlessly bypass that would be dumb.
+    gamma:
+      announcement: alert-level-gamma-announcement
+      selectable: false
+      sound:
+        path: /Audio/Misc/siren.ogg
+        params:
+          volume: -2
+      disableSelection: true
+      color: PaleVioletRed
+      emergencyLightColor: PaleVioletRed
+      forceEnableEmergencyLights: true
+    delta:
+      announcement: alert-level-delta-announcement
+      selectable: false
+      sound:
+        path: /Audio/Misc/delta.ogg
+        params:
+          volume: -3
+      disableSelection: true
+      color: DarkRed
+      emergencyLightColor: Orange
+      forceEnableEmergencyLights: true
+      shuttleTime: 1200
+    epsilon:
+      announcement: alert-level-epsilon-announcement
+      selectable: false
+      sound:
+        path: /Audio/Misc/epsilon.ogg
+        params:
+          volume: -2
+      disableSelection: true
+      color: DarkViolet
+      emergencyLightColor: DarkViolet
+      forceEnableEmergencyLights: true
+      shuttleTime: 1200
+    navy:
+      announcement: "Central Command has raised the Navy security level on the station due to the upcoming visit of special guests. Security personnel must remain vigilant and escort the guests as needed. Crewmembers should present a professional appearance and ensure their work areas are tidy."
+      selectable: false
+      sound: /Audio/Misc/notice1.ogg
+      disableSelection: true
+      color: "#454679"
+      emergencyLightColor: "#454679"
+    brown:
+      announcement: "The station is deemed to be very filthy. Grab cleaning tools and start cleaning around the station."
+      selectable: true
+      color: Brown
+      emergencyLightColor: Brown
+      forceEnableEmergencyLights: true
+    lima:
+      announcement: "Central Command has ordered the Lima security level on the station. There is currently a supernatural or eldritch-level abnormality on the station. All staff on board must investigate and eliminate the abnormality."
+      selectable: false
+      sound: /Audio/Misc/siren.ogg
+      disableSelection: true
+      color: DarkOrange
+      emergencyLightColor: DarkOrange
+      forceEnableEmergencyLights: true
+    boogie:
+      announcement: "ITS BOOGIE TIME! Get on that dance floor and show off your moves! Party time all the time!"
+      selectable: false
+      disableSelection: true
+      color: Pink
+      emergencyLightColor: Pink
+      forceEnableEmergencyLights: true
