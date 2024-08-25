@@ -244,73 +244,73 @@
 
 - type: entity
   parent: GunSafe
-  id: GunSafePistolMk58
+  id: GunSafePistolMk58Practice
   name: mk58 safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponPistolMk58
+    - id: WeaponPistolMk58Practice
       amount: 4
-    - id: MagazinePistol
+    - id: MagazinePistolPractice
       amount: 8
 
 - type: entity
   parent: GunSafe
-  id: GunSafeRifleLecter
+  id: GunSafeRifleLecterPractice
   name: lecter safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponRifleLecter
+    - id: WeaponRifleLecterPractice
       amount: 2
-    - id: MagazineRifle
+    - id: MagazineRiflePractice
       amount: 4
 
 - type: entity
   parent: GunSafe
-  id: GunSafeSubMachineGunDrozd
+  id: GunSafeSubMachineGunDrozdPractice
   name: drozd safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunDrozd
+    - id: WeaponSubMachineGunDrozdPractice
       amount: 2
-    - id: MagazinePistolSubMachineGun
+    - id: MagazinePistolSubMachineGunPractice
       amount: 4
 
 - type: entity
   parent: GunSafe
-  id: GunSafeShotgunEnforcer
+  id: GunSafeShotgunEnforcerPractice
   name: enforcer safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunEnforcer
+    - id: WeaponShotgunEnforcerPractice
       amount: 2
-    - id: MagazineShotgun
+    - id: MagazineShotgunPractice
       amount: 4
 
 - type: entity
   parent: GunSafe
-  id: GunSafeShotgunKammerer
+  id: GunSafeShotgunKammererPractice
   name: kammerer safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponShotgunKammerer
+    - id: WeaponShotgunKammererPractice
       amount: 2
-    - id: MagazineShotgun
+    - id: MagazineShotgunPractice
       amount: 4
 
 - type: entity
-  id: GunSafeSubMachineGunWt550
+  id: GunSafeSubMachineGunWt550Practice
   suffix: Wt550
   parent: GunSafe
   name: wt550 safe
   components:
   - type: StorageFill
     contents:
-    - id: WeaponSubMachineGunWt550
+    - id: WeaponSubMachineGunWt550Practice
       amount: 2
-    - id: MagazinePistolSubMachineGunTopMounted
+    - id: MagazinePistolSubMachineGunTopMountedPractice
       amount: 4
